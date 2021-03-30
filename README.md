@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Kindred Companion App
+
+Vampire: the Masquerade RPG Tabletop Character Creation Sheet Manager
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

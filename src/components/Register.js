@@ -10,7 +10,8 @@ import Box from '@material-ui/core/Box';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-// import { useAuth } from '../../contexts/AuthContext'
+// import { useAuth } from '../contexts/AuthContext';
+// import register from '../contexts/AuthContext'
 
 function Copyright() {
     return (
@@ -66,12 +67,12 @@ export default function Register() {
   const passwordRef = useRef()
   const passwordConfirmRef = useRef()
   
-//   const { signup } = useAuth()
+//   const { register } = useAuth()
 
 //   function handleSubmit(e) {
 //       e.preventDefault()
 
-//       signup(emailRef.current.value, passwordRef.current.value)
+//       register(emailRef.current.value, passwordRef.current.value)
 //   }
   
   return (
@@ -164,7 +165,7 @@ export default function Register() {
           </Button>
           <Grid container justify="flex-end">
             <Grid item>
-              <Link href="#" variant="body2">
+              <Link href="/login" variant="body2">
                 Already have an account? Sign in
               </Link>
             </Grid>

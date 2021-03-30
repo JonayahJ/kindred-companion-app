@@ -1,14 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'fontsource-roboto';
-import Register from './components/Register';
-// import Login from './components/Login';
-
-const App = () => {
-  return (
-    <Register />
-  )
-}
+import App from './components/App'
 
 ReactDOM.render(
   <React.StrictMode>
