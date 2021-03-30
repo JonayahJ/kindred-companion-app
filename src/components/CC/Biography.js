@@ -43,7 +43,7 @@ export default function Biography() {
 
   return (
     <React.Fragment>
-      <Typography variant="h6" gutterBottom>
+      <Typography variant="h5" gutterBottom>
         Biography
       </Typography>
       <Grid container spacing={3}>
@@ -60,7 +60,6 @@ export default function Biography() {
         {/* HUMAN NAME */}
         <Grid item xs={12} sm={6}>
           <TextField
-            required
             id="humanName"
             name="humanName"
             label="Human name"
@@ -92,7 +91,7 @@ export default function Biography() {
         </Select>
         </FormControl>
         {/* Dropdown Menu - Generation */}
-        <FormControl variant="filled" className={classes.formControl} required>
+        <FormControl variant="filled" className={classes.formControl}>
         <InputLabel htmlFor="filled-generation-native-simple">Generation</InputLabel>
         <Select
           native
@@ -147,7 +146,7 @@ export default function Biography() {
         {/* DOB */}
         <form className={classes.container} noValidate>
             <TextField
-                id="date"
+                id="dob"
                 variant="filled"
                 label="Date of Birth"
                 type="date"
@@ -161,7 +160,7 @@ export default function Biography() {
         {/* DOD */}
         <form className={classes.container} noValidate>
             <TextField
-                id="date"
+                id="dod"
                 variant="filled"
                 label="Date of Death"
                 type="date"
