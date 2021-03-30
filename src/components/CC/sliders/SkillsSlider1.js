@@ -95,6 +95,7 @@ export default function SkillsSlider1() {
             max={5}
           />
         </Grid>
+        <br /><br />
         {/* Drive */}
         <Grid item xs={10} sm={4}>
           <Typography >
@@ -111,6 +112,7 @@ export default function SkillsSlider1() {
             max={5}
           />
         </Grid>
+        <br /><br />
         {/* Firearms */}
         <Grid item xs={10} sm={4}>
           <Typography >
@@ -127,6 +129,7 @@ export default function SkillsSlider1() {
             max={5}
           />
         </Grid>
+        <br /><br />
         {/* Melee */}
         <Grid item xs={10} sm={4}>
           <Typography >
@@ -143,6 +146,7 @@ export default function SkillsSlider1() {
             max={5}
           />
         </Grid>
+        <br /><br />
         {/* Larceny */}
         <Grid item xs={10} sm={4}>
           <Typography >
@@ -159,6 +163,7 @@ export default function SkillsSlider1() {
             max={5}
           />
         </Grid>
+        <br /><br />
         {/* Stealth */}
         <Grid item xs={10} sm={4}>
           <Typography >
@@ -175,6 +180,7 @@ export default function SkillsSlider1() {
             max={5}
           />
         </Grid>
+        <br /><br />
         {/* Survival */}
         <Grid item xs={10} sm={4}>
           <Typography >
