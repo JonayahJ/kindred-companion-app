@@ -9,6 +9,8 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
+// import { Alert } from '@material-ui/lab';
+
 import { makeStyles } from '@material-ui/core/styles';
 // import { useAuth } from '../contexts/AuthContext';
 // import register from '../contexts/AuthContext'
@@ -68,11 +70,25 @@ export default function Register() {
   const passwordConfirmRef = useRef()
   
 //   const { register } = useAuth()
+//   const [error, setError] = useState("")
+//   const [loading, setLoading] = useState(false)
 
-//   function handleSubmit(e) {
+//   async function handleSubmit(e) {
 //       e.preventDefault()
 
-//       register(emailRef.current.value, passwordRef.current.value)
+//       if (passwordRef.current.value !== passwordConfirmRef.current.value) {
+//           return setError("Passwords do not match.")
+//       }
+
+//       try {
+//           setError("")
+//           setLoading(true)
+//           await register(emailRef.current.value, passwordRef.current.value)
+//       } catch {
+//           setError("Failed to create an account.")
+//       }
+
+//       setLoading(false)
 //   }
   
   return (
@@ -88,7 +104,11 @@ export default function Register() {
           Register
         </Typography>
         <br />
-        <form className={classes.form} noValidate>
+        {/* {error && <Alert severity="error">{error}</Alert>} */}
+        <form 
+            className={classes.form} 
+            // onSubmit={handleSubmit}
+        >
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <TextField
@@ -160,6 +180,7 @@ export default function Register() {
             variant="contained"
             color="primary"
             className={classes.submit}
+            // disabled={loading}
           >
             Sign Up
           </Button>

@@ -8,7 +8,7 @@ export function useAuth(){
 }
 
 export function AuthProvider({ children }) {
-    const [currentUser, setCurrentUser] = useState()
+    const [currentUser, setCurrentUser] = useState(null)
     
     function register(email, password) {
         return auth.createUserWithEmailAndPassword(email, password)
