@@ -1,0 +1,44 @@
+{
+    "predator": [
+        {
+            "name": "Alleycat",
+            "description": "A combative assault-feeder, you stalk, overpower, and drink from whomever you can, when you can. You may or may not attempt to threaten or Dominate victims into silence or mask the feeding as a robbery."
+        },
+        {
+            "name": "Bagger",
+            "description": "You steal, buy, or otherwise procure cold blood rather than hunt, relying on the black market or your skills as a burglar, hospital employee, or ambulance chaser. Ventrue may not pick this Predator type."
+        },
+        {
+            "name": "Blood Leech",
+            "description": "You drink from other vampires, either by hunting, coercion or by taking Blood as payment - the only truly moral way of feeding you can think of. Unfortunately, this practice is usually forbidden in Kindred society. It is either extremely risky or requires a position of enviable power."
+        },
+        {
+            "name": "Cleaver",
+            "description": "You feed covertly from your (or someone’s) mortal family and friends with whom you still maintain ties. The most extreme cleavers adopt children, marry a human, and try to maintain a family life for as long as they can. Add your family to the Relationship Map."
+        },
+        {
+            "name": "Consensualist",
+            "description": "You never feed against your victim’s free will. You masquerade as a representative of a charity blood drive, as a blood-drinking kink-lord in the “real vampire community,” or by actually telling your victims what you are and getting their permission to feed. The Camarilla call that last method a Masquerade breach, but many Anarch philosophers consider it an acceptable risk."
+        },
+        {
+            "name": "Farmer",
+            "description": "You only feed from animals. Your Hunger constantly gnaws at you, but you have not killed a single human being so far (except perhaps that one time), and you intend to keep it that way. Ventrue may not pick this Predator type. You cannot pick this Predator type if your Blood Potency is 3 or higher."
+        },
+        {
+            "name": "Osiris",
+            "description": "You are a celebrity among mortals or else you run a cult, a church, or something similar. You feed from your fans or worshippers, who treat you as a deity. You always have access to easy blood, but followers breed problems with the authorities, organized religion, and indeed the Camarilla."
+        },
+        {
+            "name": "Sandman",
+            "description": "You rely on your stealth or Disciplines to feed from sleeping victims. If they never wake during the feeding, they won’t know you exist. Perhaps you were very anti-social in life; you don’t feel cut out for the intense interpersonal nightlife or physical violence of more extroverted hunters."
+        },
+        {
+            "name": "Scene Queen",
+            "description": "You rely on your familiarity with a certain subculture and a well-crafted pose, feeding on an exclusive subculture that believes you to be one of them. Your victims adore you for your status in the scene, and the ones who understand what you are disbelieved. In life, you almost certainly belonged to a scene similar to the one you stalk now."
+        },
+        {
+            "name": "Siren",
+            "description": "You feed almost exclusively during or while feigning sex, and you rely on your Disciplines, seduction skills, or the unquenchable appetites of others to conceal your carnivorous nature. You have mastered the art of the one-night stand or move through the sex-club scene like a dark star."
+        }
+    ]
+}

@@ -75,12 +75,21 @@ export default function Home() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="secondary" href="/character-creation">
+                  <Button 
+                    variant="contained" 
+                    color="secondary" 
+                    href="/character-creation"
+                    className={classes.button}
+                  >
                     Create a new character
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="secondary">
+                  <Button 
+                    variant="outlined" 
+                    color="secondary"
+                    className={classes.button}
+                  >
                     Campaign Notes
                   </Button>
                 </Grid>

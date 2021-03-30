@@ -1,0 +1,208 @@
+{
+    "clan": [
+        {
+            "name": "Brujah",
+            "description": "Clan Brujah have always Embraced from the ranks of those sympathetic to counterculture and revolution. They seek out allies who question normative ideas, and recognizing the fire of the oppressed, they gravitate toward the underdog.",
+            "diciplines": [
+                {
+                    "name": "Celerity",
+                    "description": "Brujah use Celerity to strike fast and escape uprisings they have started. They hunt with it to snatch vessels from the streets, feeding from them savagely, or to rapidly dispose of a mortal before vanishing into the night."
+                },
+                {
+                    "name": "Potence",
+                    "description": "rujah use Potence as a devastating weapon, cutting short any confrontation with destructive finality. Though the clan preaches a connection to humanity, its mem- bers often take what they want by force, as it is simpler to hold a kine in place or crack their skull open and drink its insides than to negotiate for a mouthful of blood."
+                },
+                {
+                    "name": "Presence",
+                    "description": "rujah use Presence to win the hearts of the crowd, turn a threatening mob against itself, or send a dangerous opponent fleeing into the night. Brujah intellectuals prefer feeding with Presence to convince vessels to give up their blood voluntarily. Other clan members use Presence to terrify their prey, as it apparently adds “an exquisite, bold taste” and fuels the less subtle powers of their curse."
+                }
+            ],
+            "bane": "The Blood of the Brujah simmers with barely contained rage, exploding at the slightest provocation. Subtract dice equal to the Bane Severity of the Brujah from any roll to resist fury frenzy. This cannot take the pool below one die.",
+            "emblem": ""
+        },
+        {
+            "name": "Gangrel",
+            "description": "Clan Gangrel are outcasts, wanderers, rogues, and hunters. Gangrel Embrace from the ranks of survivors and fighters: leaders of prison crews and gangs, explorers, and any kine who sees the world as something to traverse instead of something to hide from. They care not for looks or title, but for accomplishment and reputation.",
+            "diciplines": [
+                {
+                    "name": "Animalism",
+                    "description": "A Gangrel can use Animalism to take on an animal companion, sometimes called a famulus. The animal companion can be used for hunting, spying, and attacking. Some Gangrel will turn pets on their owners, hound vagrants with packs of dogs, or lure strays to them for a quick feeding"
+                },
+                {
+                    "name": "Fortitude",
+                    "description": "As longtime bodyguards and soldiers for the other clans, the Gangrel have benefited hugely from Fortitude. The Discipline can give them a sense of fearlessness, as it allows them to hunt across harsh terrain and take bullets and knife blades without worry. The Gangrel who emphasize growth in Fortitude likely expects a lot of harm to come their way."
+                },
+                {
+                    "name": "Protean",
+                    "description": "Straddling the line between vampirism and shapeshifting, the Discipline allows a Gangrel to take on the physical properties of another creature, or in other ways change their physical shape. Gangrel who feed as animals often consider this the tru- est, or at least the best, of kills."
+                }
+            ],
+            "bane": "In frenzy, Gangrel gain one or more animal features: a physical trait, a smell, or a behavioral tic. These features last for one more night afterward, lingering like a hango- ver following debauchery. Each feature reduces one Attribute by 1 point. The number of features a Gangrel manifests equals their Bane Severity.",
+            "emblem": ""
+        },
+        {
+            "name": "Malkavians",
+            "description": "Clan of the Moon are oracles, visionaries, lunatics, madmen, and jesters. To the Malkavians, origins matter a great deal. Though sires may pick childer from all walks of life, every mortal selected for the Embrace possesses something only visible to a Malkavian: second-sight, insight, and broken individuals.",
+            "diciplines": [
+                {
+                    "name": "Auspex",
+                    "description": "Malkavians use Auspex to enhance their senses, strengthening their sight or hearing to a supernat- ural level, or to determine a mortal’s fears, illusions, and mental weak- nesses, so they can play on them horribly as they prepare to feed. Many a Malkavian has persuaded a vessel to “tell them all about it,” before draining their weeping victim not ten minutes later."
+                },
+                {
+                    "name": "Dominate",
+                    "description": "Some Malkavians use Dominate to lift all distractions from a victim’s mind, completely enthralling them; others use the Discipline to draw forth or inflict psychoses, through the infamous variant known as Dementation. While some do it mainly for the sake of experimentation, getting into a mortal’s head and convincing them that they want to give up their blood greatly assists the clan in surviving night to night."
+                },
+                {
+                    "name": "Obfuscate",
+                    "description": "The Malkavians do not advertise their use of Obfuscate, conveniently allowing many Kindred to forget they even have access to this Discipline. What they use it for differs vastly. While some Malkavians might want to observe the court from secluded corners or play tricks on their prince, others secrete themselves in the houses, wards, and care homes of the kine, watching the sleeping faces before discreetly feeding."
+                }
+            ],
+            "bane": "Afflicted by their lineage, all Malkavians are cursed with at least one type of mental derangement. Depending on their history and the state of their mind at death, they may experience delusions, visions of terrible clarity, or something entirely different. When the Malkavian suffers a Bestial Failure or a Compulsion, their curse comes to the fore. Suffer a penalty equal to your character’s Bane Severity to one category of dice pools for the entire scene. This is in addition to any penalties incurred by Compulsions.",
+            "emblem": ""
+        },
+        {
+            "name": "Nosferatu",
+            "description": "For the Nosferatu, the Embrace is a journey through abjection as the Blood of the horror gradually deforms the struggling tissues of the human body into grotesque abominations. The Nosferatu wear their curse on the outside rather than the inside. To blend in, some call on the Blood to wear the borrowed faces of their victims or disappear from sight, while others rely on prosthetics and heavy make-up.",
+            "diciplines": [
+                {
+                    "name": "Animalism",
+                    "description": "The Nosferatu treasure the Discipline of Animalism for its utility in increasing their spy network, gaining familiars, allowing the delivery of messages, and granting the ability to suddenly swarm an opponent with a horde of rats, bugs, or birds. Animalism also assists the Nosferatu who wishes to feed from animals – it is often easier, and arguably more moral, to summon a pigeon and drain it than to stalk a mortal and feed from their neck."
+                },
+                {
+                    "name": "Obfuscate",
+                    "description": "The Nosferatu have mixed opinions on Obfuscate, as the Discipline enables them to blend in with others, but also masquerades that which defines their clan – some Nosferatu are proud of their unconcealed monstrosity, while others take every effort to hide it. Regardless of the controversies, Obfuscate is an excellent tool for hunting and feeding, as few other methods allow a sewer rat to interact with the kine."
+                },
+                {
+                    "name": "Potence",
+                    "description": "Nosferatu use Potence to rapidly neutralize foes. The Nosferatu understand the merit of hit and run, incapacitating a vessel before feeding and fleeing, or breaking the Anarch Baron’s head before vaulting away from their hangout. Many Sewer Rats hesitate to use Potence before the kine, as its unfiltered might opposes their deceptions."
+                }
+            ],
+            "bane": "Hideous and vile, all Nosferatu count as having the Repulsive Flaw (-2) and can never increase their rating in the Looks Merit. In addition, any attempt to disguise themselves as non-deformed incur a penalty to the dice pool equal to the character’s Bane Severity.",
+            "emblem": ""
+        },
+        {
+            "name": "Toreador",
+            "description": "Clan Toreador has ever preached selectiveness in its rituals of the Embrace. The clan elders stress time and again that the clan requires pioneers among the arts and every kind of avant-garde. The clan is at its strongest when comprised of the freshest thinkers and those who desire experimentation and aesthetic discovery. The clan courts the greatest actors, singers, writers, dancers, and even sex workers.",
+            "diciplines": [
+                {
+                    "name": "Auspex",
+                    "description": "Toreador are ever on the hunt for exquisite experiences and use Auspex to identify the most susceptible vessels and those who might, through their feelings and temperament, offer new tastes and sensations to the drinker during the feed. Toreador also frequently use the Discipline on other Kindred, catering to their desires or antagonizing them with truths they should not know."
+                },
+                {
+                    "name": "Celerity",
+                    "description": "The Toreador claim they are not combatants, but few move as swiftly as the degenerate using Celerity to cut an opponent to ribbons before they have even had time to draw their weapon. Toreador often use Celerity to enhance artistic or performative skills. In feeding, they use the Discipline to take what they need from a vessel and vanish before the mortal realizes the truth of what has occurred."
+                },
+                {
+                    "name": "Presence",
+                    "description": "The Toreador master the Discipline of Presence, often using it in concert with Auspex to manipulate the emotions of Kindred and kine. Presence can guarantee an appreciative audience or cause the failure of another artist. Some Toreador will use the Discipline to indulge in carnal pleasures with an unnaturally enthusiastic partner or to lure a vessel into their arms and under their fangs. The members of the clan adore willing vessels, even if the willingness is a supernaturally induced façade."
+                }
+            ],
+            "bane": "Toreador desire beauty so intensely that they suffer in its absence. While your character finds itself in less than beautiful surroundings, lose the equivalent of their Bane Severity in dice from dice pools to use Disciplines. This obsession with aesthetics also causes divas to lose themselves in moments of beauty and a bestial failure often results in a rapt trance.",
+            "emblem": ""
+        },
+        {
+            "name": "Tremere",
+            "description": "The Tremere are Blood witches, warlocks, hemetics, usurpers, thaumaturges, and transgressors. After the Second Inquisition destroyed the Prime Chantry in Vienna in 2008, the clan fractured and a chase for artifacts and grimoires belonging to their ashen ancestors began. Some Warlocks serve the other clans with occult expertise, they serve the Camarilla with Blood Sorcery, and they serve themselves with their missions to grasp power.",
+            "diciplines": [
+                {
+                    "name": "Auspex",
+                    "description": "Tremere use Auspex to perceive the auras of others, search for evidence of magical essences and important objects left behind, and to communicate with each other across vast distances without fear of being overheard. When needing to feed, Auspex assists a Tremere looking for a pliable vessel, as they can discern the enthusiastic from the reluctant. Many Tremere use Auspex to determine what a mortal needs in order to be more malleable."
+                },
+                {
+                    "name": "Blood Sorcery (Thaumaturgy)",
+                    "description": "Master thaumaturges, the Tremere’s expertise in blood magick makes them a valued, if mistrusted, pillar of the Camarilla. Using Blood Sorcery, they can convey devastating attacks on an opponent’s mind and body, defend themselves, and ease their feeding. Some warlocks use Thaumaturgy to sap a mortal’s blood from their veins without ever having to touch them."
+                },
+                {
+                    "name": "Dominate",
+                    "description": "The Tremere will do almost anything for the sake of knowledge and influence, and Dominate is the Discipline that lets them get away with it. Thievery, backstabbing, and the unjust murder of a clan member’s ghoul are all made easier by the ability to control a mortal’s mind and body. When attempting to feed, a Tremere will show little compunction against using the Discipline to force a mortal into baring their throat."
+                }
+            ],
+            "bane": "Once the clan was defined by a rigid hierarchy of Blood Bonds reaching from the top to the bottom of the Pyramid. But after the fall of Vienna, their Blood has recoiled and aborted all such connections. Tremere vitae can no longer Blood Bond other Kindred, though they themselves can be Bound by Kindred from other clans. A Tremere can still bind mortals and ghouls, though the corrupted vitae must be drunk an additional number of times equal to the vampire’s Bane Severity for the bond to form.",
+            "emblem": ""
+        },
+        {
+            "name": "Venture",
+            "description": "Clan Ventrue has long been the leaders of the Camarilla, holding more positions of power than any other clan, and they are loath to give that up. The Ventrue believe in the strength of tradition and lineage. The Embrace is one of the their most important rituals, and the choice of childe affects the way other members of the clan treat the sire. Ventrue therefore aim to Embrace overachievers, politically or financially powerful kine, or those with a talent that sets them apart from the masses.",
+            "diciplines": [
+                {
+                    "name": "Dominate",
+                    "description": "The Ventrue consider themselves the masters of this Discipline, using it primarily to exert their will on vassals and kine. When feeding, a Ventrue may command a mortal to bare their neck, or use Dominate to erase all memory of a feeding. Ventrue also expertly use this Discipline to protect the Masquerade."
+                },
+                {
+                    "name": "Fortitude",
+                    "description": "Fortitude enables the Ventrue to keep their thrones even when armies array against them, and to weather every blade, bullet, and bomb. They use the Discipline to feed in adverse situations, physical or otherwise. Where other Kindred might run short on vitae, the Ventrue resist the environment and take their fill."
+                },
+                {
+                    "name": "Presence",
+                    "description": "The Ventrue seek to tame the court and build the love and devotion of others toward their rule, and Presence is a helpful tool. The Discipline is also used by the Ventrue who wants others to see how easy they acquire vessels. The clan values conservation of time and resources, and Presence allows a hungry blue blood to be efficient when luring their prey."
+                }
+            ],
+            "bane": "The Ventrue are in possession of rarefied palates. When a Ventrue drinks blood from any mortal outside their preference, a profound exertion of will is required or the blood taken surges back up as scarlet vomit. Preferences vary greatly. With a Resolve + Awareness test (Difficulty 4 or more) your character can sense if a mortal possesses the blood they require. If you want your character to feed from anything but their preferred victim, you must spend Willpower points equal to the character’s Bane Severity.",
+            "emblem": ""
+        },
+        {
+            "name": "Caitiff",
+            "description": "Many Kindred incorrectly assume all Caitiff are created accidentally, that the clanless target no mortals for the Embrace. This view is outdated and ignorant. These nights, the clanless are increasingly becoming a force to be reckoned with. Though more disparate, individualistic, and chaotic than their cousins, they are all survivors, and they have begun to gather, build alliances, and make childer of their own. The Caitiff who seek out mortals to perform the Embrace generally target the strong-willed and those used to uncommon hardship. \n\nNOTE: Caitiff characters have access to three Disciplines of your choice following the Embrace. These are not considered in-clan for the pur- poses of Experience cost and the Caitiff can learn any Discipline at the same price assuming they taste the Blood of a wielder at least once and fulfill the standard conditions for that Discipline.",
+            "diciplines": [
+                {
+                    "name": "Animalism",
+                    "description": "Animalism is a Discipline that brings the vampire closer to their animalistic nature. This not only allows them to communicate with and gain dominance over creatures of nature, but gives them influence over the Beast itself."
+                },
+                {
+                    "name": "Auspex",
+                    "description": "Auspex is a Discipline that grants vampires supernatural senses."
+                },
+                {
+                    "name": "Blood Sorcery",
+                    "description": "Blood Magic, or Blood Sorcery, refers to the magic performed by vampires, fueled by religious or occult practices and the power of Cainite vitae."
+                },
+                {
+                    "name": "Celerity",
+                    "description": "Celerity is a Discipline that grants vampires supernatural quickness and reflexes."
+                },
+                {
+                    "name": "Dominate",
+                    "description": "Dominate is a Discipline that overwhelms another person's mind with the vampire's will, forcing victims to think or act according to the vampire's decree."
+                },
+                {
+                    "name": "Fortitude",
+                    "description": "Fortitude is a Discipline that grants Kindred unearthly toughness, even to the point of resisting fire and sunlight."
+                },
+                {
+                    "name": "Obfuscate",
+                    "description": "Obfuscate is a Discipline that allows vampires to conceal themselves, deceive the mind of others, or make them ignore what the user does not want to be seen."
+                },
+                {
+                    "name": "Oblivion",
+                    "description": "Oblivion is a Discipline that allows its users to draw on something wholly unnatural; calling forth supernatural darkness from the Abyss and enslaving specters through Oblivion. It is used by the Lasombra clan and the Hecata bloodlines in Vampire: The Masquerade 5th Edition. It combines Obtenebration, Necromancy, and to some extent Thanatosis, Mortis, Deimos and Nihilistics from previous editions."
+                },
+                {
+                    "name": "Potence",
+                    "description": "Potence is the Discipline that endows vampires with physical vigor and preternatural strength. Vampires with the Potence Discipline possess physical prowess beyond mortal bounds."
+                },
+                {
+                    "name": "Presence",
+                    "description": "Presence is the Discipline of supernatural allure and emotional manipulation which allows Kindred to attract, sway, and control crowds."
+                },
+                {
+                    "name": "Protean",
+                    "description": "Protean is a Discipline that gives vampires the ability to change form, from growing feral claws to evaporating into a cloud of mist."
+                }
+            ],
+            "bane": "Untouched by the Antediluvians, the Caitiff share no common bane. Caitiff characters begin with the Suspect Flaw and you may not purchase positive Status for them during character creation. The Storyteller may always impose a one or two dice penalty on Social tests against fellow Kindred who know they are Caitiff, regardless of their eventual Status.",
+            "emblem": ""
+        },
+        {
+            "name": "Thin-Blooded",
+            "description": "A deteriorated breed, a portent of the end times,or a vampire for a brave new world? Sires tell their childer of the 13th and 14th generation never to attempt the Embrace as their Blood is too far removed from Caine. They say it will bring nothing but death and sorrow. But, be it by mistake or design, this edict is not always followed. The thin-blooded are here to stay. Their messy street-alchemy and ability to pass as human makes them uniquely suited to thrive outside Kindred society and make their own fate in the post-modern nights.",
+            "diciplines": [
+                {
+                    "name": "Thin-Blood Alchemy",
+                    "description": "This potentially allows them to taste the Disciplines of other Kindred, and to get more than a taste if they can find the vitae to fuel those workings. Additionally, whenever a thin-blood feeds they gain one dot in one Discipline associated with the Resonance of the blood consumed, together with one level one power in that discipline. If the Resonance is Intense or stronger, they gain an additional dot together with a second power. No additional powers can be gained in this way nor can the rating increase with experience. This Discipline lasts until Hunger reaches 5 or the next feeding."
+                }
+            ],
+            "bane": "N/a",
+            "emblem": ""
+        }
+    ]
+}
