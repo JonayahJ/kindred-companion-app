@@ -65,19 +65,17 @@ export default function Home() {
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
-          <Container maxWidth="sm">
+          <Container maxWidth="md">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
               Welcome, Kindred!
             </Typography>
-            <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Something short and leading about the collection below—its contents, the creator, etc.
-              Make it short and sweet, but not too short so folks don&apos;t simply skip over it
-              entirely.
+            <Typography variant="h6" align="center" color="textSecondary" paragraph>
+              Whether you're an experienced Kindred or a young fledgling, you're in the right place.  Here, you can create new characters with our easy to use character creation portal, manage all of your character sheets, and even add campaign notes so that you never forget what happened during your sessions.  Click the buttons below to get started.
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="secondary">
+                  <Button variant="contained" color="secondary" link="/character-creation">
                     Create a new character
                   </Button>
                 </Grid>
