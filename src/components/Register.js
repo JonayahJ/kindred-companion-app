@@ -14,10 +14,10 @@ import { makeStyles } from '@material-ui/core/styles';
 
 function Copyright() {
     return (
-      <Typography variant="body2" color="textSecondary" align="center">
+        <Typography variant="body2" color="textSecondary" align="center">
         {'Copyright © '}
-        <Link color="inherit" href="https://material-ui.com/">
-          Your Website
+        <Link color="inherit" href="https://kindredcompanion.app/">
+          Kindred Companion App
         </Link>{' '}
         {new Date().getFullYear()}
         {'.'}
@@ -57,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SignUp() {
+export default function Register() {
   const classes = useStyles();
   
   const firstNameRef = useRef()
