@@ -19,14 +19,22 @@ export default function Biography() {
             fullWidth
           />
         </Grid>
+        {/* Dropdown Menu */}
         <Grid item xs={12} sm={6}>
           <TextField
             required
-            id="humanName"
-            name="humanName"
-            label="Your human name"
+            id="clan"
+            name="clan"
+            label="Clan"
             fullWidth
           />
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <TextField 
+            id="sire" 
+            name="sire" 
+            label="Sire" 
+            fullWidth />
         </Grid>
         <Grid item xs={12} sm={6}>
           <TextField
@@ -46,45 +54,13 @@ export default function Biography() {
             fullWidth
           />
         </Grid>
-        <Grid item xs={12}>
-          <TextField
-            id="concept"
-            name="concept"
-            label="Concept"
-            fullWidth
-          />
-        </Grid>
-        <Grid item xs={12}>
-          <TextField
-            id="ambition"
-            name="ambition"
-            label="Ambition"
-            fullWidth
-          />
-        </Grid>
+        
         {/* Dropdown Menu */}
         <Grid item xs={12} sm={6}>
           <TextField
             id="predation"
             name="predation"
             label="Predator Style"
-            fullWidth
-          />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <TextField 
-            id="sire" 
-            name="sire" 
-            label="Sire" 
-            fullWidth />
-        </Grid>
-        {/* Dropdown Menu */}
-        <Grid item xs={12} sm={6}>
-          <TextField
-            required
-            id="clan"
-            name="clan"
-            label="Clan"
             fullWidth
           />
         </Grid>
@@ -124,6 +100,22 @@ export default function Biography() {
                 fullWidth
             >
             </TextField>
+        </Grid>
+        <Grid item xs={12}>
+          <TextField
+            id="concept"
+            name="concept"
+            label="Concept"
+            fullWidth
+          />
+        </Grid>
+        <Grid item xs={12}>
+          <TextField
+            id="ambition"
+            name="ambition"
+            label="Ambition"
+            fullWidth
+          />
         </Grid>
       </Grid>
     </React.Fragment>

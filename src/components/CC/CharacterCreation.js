@@ -10,7 +10,7 @@ import StepLabel from '@material-ui/core/StepLabel';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Copyright from '../Copyright';
-import Biorgraphy from './Biography';
+import Biography from './Biography';
 import Attributes from './Attributes';
 import Skills from './Skills';
 import Disciplines from './Disciplines';
@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const steps = [
-        'Biorgaphy', 
+        'Bio', 
         'Attributes', 
         'Skills', 
         'Disciplines', 
@@ -70,7 +70,7 @@ const steps = [
 function getStepContent(step) {
   switch (step) {
     case 0:
-      return <Biorgraphy />;
+      return <Biography />;
     case 1:
       return <Attributes />;
     case 2:
@@ -105,7 +105,7 @@ export default function CharacterCreation() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar position="absolute" color="default" className={classes.appBar}>
+      <AppBar position="absolute" color="secondary" className={classes.appBar}>
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
             Kindred
@@ -133,6 +133,14 @@ export default function CharacterCreation() {
                 <Typography variant="subtitle1">
                   Your new character sheet has been saved and stored in your account.  Simply find the card with your new character and either click view to see your character sheet or click edit to make changes.
                 </Typography>
+                <Button
+                    variant="contained"
+                    color="secondary"
+                    href="/"
+                    className={classes.button}
+                  >
+                    Back to Home
+                  </Button>
               </React.Fragment>
             ) : (
               <React.Fragment>
@@ -145,11 +153,11 @@ export default function CharacterCreation() {
                   )}
                   <Button
                     variant="contained"
-                    color="primary"
+                    color="secondary"
                     onClick={handleNext}
                     className={classes.button}
                   >
-                    {activeStep === steps.length - 1 ? 'Place order' : 'Next'}
+                    {activeStep === steps.length - 1 ? 'Save character' : 'Next'}
                   </Button>
                 </div>
               </React.Fragment>

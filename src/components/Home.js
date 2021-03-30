@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-  const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const cards = [1, 2, 3, 4, 5, 6];
 
 export default function Home() {
     const classes = useStyles();
@@ -75,7 +75,7 @@ export default function Home() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="secondary" link="/character-creation">
+                  <Button variant="contained" color="secondary" href="/character-creation">
                     Create a new character
                   </Button>
                 </Grid>
