@@ -105,22 +105,25 @@ export default function Home() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
+                    // Clan Image?
                     image="https://source.unsplash.com/collection/52843072"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
+                    {/* Kindred Name */}
                     <Typography gutterBottom variant="h5" component="h2">
                       Heading
                     </Typography>
+                    {/* Concept */}
                     <Typography>
                       This is a media card. You can use this section to describe the content.
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" href="#">
                       View
                     </Button>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" href="#">
                       Edit
                     </Button>
                   </CardActions>
@@ -133,10 +136,10 @@ export default function Home() {
       {/* Footer */}
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
-          Kindred Companion App
+          Kindred: the Companion App
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
+          Helping you stay organized so that you can enjoy your time as Kindred.
         </Typography>
         <Copyright />
       </footer>
