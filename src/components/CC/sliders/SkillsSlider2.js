@@ -62,10 +62,10 @@ export default function SkillsSlider2() {
           />
         </Grid>
         <br /><br />
-        {/* etiquette */}
+        {/* Etiquette */}
         <Grid item xs={10} sm={4}>
           <Typography >
-            etiquette
+            Etiquette
           </Typography>
           <Slider
             defaultValue={1}

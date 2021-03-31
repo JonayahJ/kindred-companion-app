@@ -68,108 +68,108 @@ export default function Biography() {
         </Grid>
         {/* Dropdown Menu - CLAN */}
         <FormControl variant="filled" className={classes.formControl} required>
-        <InputLabel htmlFor="filled-clan-native-simple">Clan</InputLabel>
-        <Select
-          native
-          value={state.clan}
-          onChange={handleChange}
-          inputProps={{
-            name: 'clan',
-            id: 'filled-clan-native-simple',
-          }}
-        >
-          <option aria-label="None" value="" />
-          <option value={1}>Brujah</option>
-          <option value={2}>Gangrel</option>
-          <option value={3}>Malkavian</option>
-          <option value={4}>Nosferatu</option>
-          <option value={5}>Toreador</option>
-          <option value={6}>Tremere</option>
-          <option value={7}>Venture</option>
-          <option value={8}>Caitiff</option>
-          <option value={9}>Thin-Blooded</option>
-        </Select>
+          <InputLabel htmlFor="filled-clan-native-simple">Clan</InputLabel>
+          <Select
+            native
+            value={state.clan}
+            onChange={handleChange}
+            inputProps={{
+              name: 'clan',
+              id: 'filled-clan-native-simple',
+            }}
+          >
+            <option aria-label="None" value="" />
+            <option value={1}>Brujah</option>
+            <option value={2}>Gangrel</option>
+            <option value={3}>Malkavian</option>
+            <option value={4}>Nosferatu</option>
+            <option value={5}>Toreador</option>
+            <option value={6}>Tremere</option>
+            <option value={7}>Venture</option>
+            <option value={8}>Caitiff</option>
+            <option value={9}>Thin-Blooded</option>
+          </Select>
         </FormControl>
         {/* Dropdown Menu - Generation */}
         <FormControl variant="filled" className={classes.formControl}>
-        <InputLabel htmlFor="filled-generation-native-simple">Generation</InputLabel>
-        <Select
-          native
-          value={state.generation}
-          onChange={handleChange}
-          inputProps={{
-            name: 'generation',
-            id: 'filled-generation-native-simple',
-          }}
-        >
-          <option aria-label="None" value="" />
-          <option value={4}>4th</option>
-          <option value={5}>5th</option>
-          <option value={6}>6th</option>
-          <option value={7}>7th</option>
-          <option value={8}>8th</option>
-          <option value={9}>9th</option>
-          <option value={10}>10th</option>
-          <option value={11}>11th</option>
-          <option value={12}>12th</option>
-          <option value={13}>13th</option>
-          <option value={14}>14th</option>
-          <option value={15}>15th</option>
-          <option value={16}>16th</option>
-        </Select>
+          <InputLabel htmlFor="filled-generation-native-simple">Generation</InputLabel>
+          <Select
+            native
+            value={state.generation}
+            onChange={handleChange}
+            inputProps={{
+              name: 'generation',
+              id: 'filled-generation-native-simple',
+            }}
+          >
+            <option aria-label="None" value="" />
+            <option value={4}>4th</option>
+            <option value={5}>5th</option>
+            <option value={6}>6th</option>
+            <option value={7}>7th</option>
+            <option value={8}>8th</option>
+            <option value={9}>9th</option>
+            <option value={10}>10th</option>
+            <option value={11}>11th</option>
+            <option value={12}>12th</option>
+            <option value={13}>13th</option>
+            <option value={14}>14th</option>
+            <option value={15}>15th</option>
+            <option value={16}>16th</option>
+          </Select>
         </FormControl>
         {/* Dropdown Menu - Predator */}
         <FormControl variant="filled" className={classes.formControl}>
-        <InputLabel htmlFor="filled-predator-native-simple">Predator</InputLabel>
-        <Select
-          native
-          value={state.predator}
-          onChange={handleChange}
-          inputProps={{
-            name: 'predator',
-            id: 'filled-predator-native-simple',
-          }}
-        >
-          <option aria-label="None" value="" />
-          <option value={1}>Alleycat</option>
-          <option value={2}>Bagger</option>
-          <option value={3}>Blood Leech</option>
-          <option value={4}>Cleaver</option>
-          <option value={5}>Consensualist</option>
-          <option value={6}>Farmer</option>
-          <option value={7}>Osiris</option>
-          <option value={8}>Sandman</option>
-          <option value={9}>Scene Queen</option>
-          <option value={10}>Siren</option>
-        </Select>
+          <InputLabel htmlFor="filled-predator-native-simple">Predator</InputLabel>
+          <Select
+            native
+            value={state.predator}
+            onChange={handleChange}
+            inputProps={{
+              name: 'predator',
+              id: 'filled-predator-native-simple',
+            }}
+          >
+            <option aria-label="None" value="" />
+            <option value={1}>Alleycat</option>
+            <option value={2}>Bagger</option>
+            <option value={3}>Blood Leech</option>
+            <option value={4}>Cleaver</option>
+            <option value={5}>Consensualist</option>
+            <option value={6}>Farmer</option>
+            <option value={7}>Osiris</option>
+            <option value={8}>Sandman</option>
+            <option value={9}>Scene Queen</option>
+            <option value={10}>Siren</option>
+          </Select>
         </FormControl>
         {/* DOB */}
         <form className={classes.container} noValidate>
-            <TextField
-                id="dob"
-                variant="filled"
-                label="Date of Birth"
-                type="date"
-                defaultValue="1990-02-13"
-                className={classes.textField}
-                InputLabelProps={{
-                shrink: true,
-                }}
-            />
+          <TextField
+              id="dob"
+              variant="filled"
+              label="Date of Birth"
+              type="date"
+              defaultValue="1990-02-13"
+              className={classes.textField}
+              InputLabelProps={{
+              shrink: true,
+              }}
+          />
         </form>
         {/* DOD */}
         <form className={classes.container} noValidate>
-            <TextField
-                id="dod"
-                variant="filled"
-                label="Date of Death"
-                type="date"
-                defaultValue="2006-06-29"
-                className={classes.textField}
-                InputLabelProps={{
-                shrink: true,
-                }}
-            />
+          <TextField
+              id="dod"
+              variant="filled"
+              label="Date of Death"
+              type="date"
+              defaultValue="2006-06-29"
+              className={classes.textField}
+              InputLabelProps={{
+              shrink: true,
+              }}
+          />
         </form>
         {/* SIRE */}
         <Grid item xs={12} sm={6}>
@@ -190,25 +190,24 @@ export default function Biography() {
         </Grid>
         {/* TRUE AGE */}
         <Grid item xs={12} sm={6}>
-            <TextField
-                id="trueAge"
-                name="trueAge"
-                label="True Age"
-                fullWidth
-            >
-            </TextField>
+          <TextField
+              id="trueAge"
+              name="trueAge"
+              label="True Age"
+              fullWidth
+          >
+          </TextField>
         </Grid>
         {/* APPARENT AGE */}
         <Grid item xs={12} sm={6}>
-            <TextField
-                id="apparentAge"
-                name="apparentAge"
-                label="Apparent Age"
-                fullWidth
-            >
-            </TextField>
+          <TextField
+              id="apparentAge"
+              name="apparentAge"
+              label="Apparent Age"
+              fullWidth
+          >
+          </TextField>
         </Grid>
-        
         {/* CONCEPT */}
         <Grid item xs={12}>
           <TextField
