@@ -62,7 +62,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Home() {
     const classes = useStyles();
-    const preventDefault = (event) => event.preventDefault();
     const [auth] = React.useState(true);
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -78,11 +77,10 @@ export default function Home() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar position="relative">
+      <AppBar position="relative" color="secondary" className={classes.appBar}>
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            {/* <a href="/">Kindred: the Companion App</a> */}
-            <Link href="/" onClick={preventDefault} color="inherit">
+            <Link href="/" color="inherit">
               Kindred: the Companion App
             </Link>
           </Typography>

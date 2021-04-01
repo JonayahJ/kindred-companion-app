@@ -9,6 +9,7 @@ import Step from '@material-ui/core/Step';
 import StepLabel from '@material-ui/core/StepLabel';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link'
 import Copyright from '../Copyright';
 import Biography from './Biography';
 import Attributes from './Attributes';
@@ -107,8 +108,10 @@ export default function CharacterCreation() {
       <CssBaseline />
       <AppBar position="absolute" color="secondary" className={classes.appBar}>
         <Toolbar>
-          <Typography variant="h6" color="inherit" noWrap>
-            Kindred
+        <Typography variant="h6" color="inherit" noWrap>
+            <Link href="/" color="inherit">
+              Kindred: the Companion App
+            </Link>
           </Typography>
         </Toolbar>
       </AppBar>
