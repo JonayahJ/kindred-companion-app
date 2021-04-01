@@ -21,6 +21,9 @@ import Menu from '@material-ui/core/Menu';
 import Copyright from './Copyright';
 
 const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+    },
     icon: {
       marginRight: theme.spacing(2),
     },
@@ -86,7 +89,7 @@ export default function Home() {
           </Typography>
           {/* Login button */}
           {auth && (
-            <div>
+            <div align="right">
               <IconButton
                 aria-label="account of current user"
                 aria-controls="menu-appbar"
